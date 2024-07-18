@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >    
+    <TextView android:text="@string/selectCalcTypeInfo"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"/>
+    <RadioGroup 
+        android:id="@+id/group"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"        
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/addition"
+            android:text="@string/addition"/>
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/minus"
+            android:text="@string/minus"/>
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/multiply"
+            android:text="@string/multiply"/>
+        <RadioButton android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/divider"
+            android:text="@string/divider"/>
+    </RadioGroup>    
+    <Button android:id="@+id/ok" 
+        android:text="@string/ok_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

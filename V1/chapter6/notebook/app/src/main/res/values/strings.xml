@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">生词本</string>
+	<string name="insert">添加生词</string>
+	<string name="search">查找</string>
+	<string name="detail">解释</string>
+	<string name="menu_settings">menu</string>
+	<string name="word_label">输入生词:</string>
+	<string name="word_desp">单词解释:</string>
+	<string name="word_hint">生词</string>
+	<string name="desp_hint">请输入生词解释</string>
+	<string name="search_hint">请输入查询生词</string>
+	<string name="matched_words">找到的单词</string>
+	<string name="okbtn">关闭</string>
+</resources>
